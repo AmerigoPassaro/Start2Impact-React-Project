@@ -1,0 +1,46 @@
+header{
+  padding: 30px 300px;
+  background-color: #296e73;
+  text-align: center;
+}
+
+#site-menu-nav{
+  padding: 25px 300px;
+  background-color: #01ae9b;
+  box-shadow: 0px 5px 10px #a0a0a0;
+}
+
+.site-menu-item{
+  display: inline;
+  margin-right:30px;
+}
+
+.site-menu-link{
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.site-menu-link:hover{
+  opacity: 0.3;
+  transition: opacity 0.5s;
+}
+
+.site-menu-link:active{
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+#title{
+  font-size: 125px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+#subtitle{
+  margin-top: -15px;
+  letter-spacing: 0.5em;
+  color: #ffffff;
+  text-transform: uppercase;
+}

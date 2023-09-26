@@ -1,0 +1,117 @@
+h2{
+  color: #603d5e;
+}
+
+h3{
+  color: #603d5e;
+  margin: 20px 0px 15px 0px;
+  padding-left: 140px;
+}
+
+section{
+  padding: 20px 20px;
+  margin: 20px 0px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 12px #a0a0a0;
+  background-color: #ffe2e3;
+}
+
+.main-paragraph{
+  line-height: 2em;
+}
+
+.main-paragraph-grid{
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  column-gap: 20px;
+}
+
+.main-image{
+  width: 100%;
+  border-radius: 300px;
+  box-shadow: 0px 2px 5px #a0a0a0;
+}
+
+figcaption{
+  font-size: 12px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#popolazione{
+  text-align: left;
+  width: 50%;
+}
+
+td, th{
+  padding-bottom: 5px;
+}
+
+/** ABOUT **/
+
+.main-about-social{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.main-about-social-box{
+  background-color: #bc92a8;
+  box-shadow: 0px 2px 5px #a0a0a0;
+  height: 20px;
+  width: 20px;
+  border-radius: 30px;
+  padding: 10px 9px 8px 9px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.main-about-social-box:hover{
+  opacity: 0.3;
+  transition: opacity 0.5s;
+}
+
+.main-about-social-box:active{
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.main-about-social-icon{
+  height: 90%;
+}
+
+/** CONTACT **/
+
+.main-contact-label{
+  font-weight: 500;
+}
+
+.main-contact-input{
+  margin: 10px 0px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px #a0a0a0;
+  font-size: 20px;
+}
+
+input.main-contact-input{
+  width: 500px;
+}
+
+textarea.main-contact-input{
+  width: 500px;
+  height: 200px;
+}
+
+#main-contact-button{
+  display: block;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 2px 5px #a0a0a0;
+  background-color: #bc92a8;
+}
