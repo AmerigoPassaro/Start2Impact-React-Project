@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Start2Impact-React-Project/static/css/main.7abd06b9.css",
+    "main.js": "/Start2Impact-React-Project/static/js/main.b76cb89a.js",
+    "static/js/787.6c138547.chunk.js": "/Start2Impact-React-Project/static/js/787.6c138547.chunk.js",
+    "index.html": "/Start2Impact-React-Project/index.html",
+    "main.7abd06b9.css.map": "/Start2Impact-React-Project/static/css/main.7abd06b9.css.map",
+    "main.b76cb89a.js.map": "/Start2Impact-React-Project/static/js/main.b76cb89a.js.map",
+    "787.6c138547.chunk.js.map": "/Start2Impact-React-Project/static/js/787.6c138547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7abd06b9.css",
+    "static/js/main.b76cb89a.js"
+  ]
+}
