@@ -77,13 +77,17 @@ class FormWatch extends React.Component {
       :
       {String(this.state.seconds).padStart(2, '0')}
       </div>
-      <form onSubmit={this.handleSubmit} Id="timer-form" >
-        {this.state.active ? <label for="minutes">Minutes</label> : ""}
-        {this.state.active ? <label for="seconds">Seconds</label> : ""}
-        {this.state.active ? <input Id="minutes" value={this.state.minutes} type="number" className="timer-input" onKeyPress={this.handleKeyPress} onChange={this.handleChangeM} min="0" max="59"/> : ""}
-        {this.state.active ? <input Id="seconds" value={this.state.seconds} type="number" className="timer-input" onKeyPress={this.handleKeyPress} onChange={this.handleChangeS} min="0" max="59"/> : ""}
-        <input type="submit" Id="timer-button" value={this.state.active ? "Start" : "Stop"} />
-      </form>
+        <form onSubmit={this.handleSubmit} Id="timer-form" >
+          <div className="timer-box">
+            {this.state.active ? <label className="timer-label" for="minutes">Minutes</label> : ""}
+            {this.state.active ? <label className="timer-label" for="seconds">Seconds</label> : ""}
+          </div>
+          <div className="timer-box">
+            {this.state.active ? <input Id="minutes" value={this.state.minutes} type="number" className="timer-input" onKeyPress={this.handleKeyPress} onChange={this.handleChangeM} min="0" max="59"/> : ""}
+            {this.state.active ? <input Id="seconds" value={this.state.seconds} type="number" className="timer-input" onKeyPress={this.handleKeyPress} onChange={this.handleChangeS} min="0" max="59"/> : ""}
+          </div>
+          <input type="submit" Id="timer-button" value={this.state.active ? "Start" : "Stop"} />
+        </form>
       </>
     )
   }
