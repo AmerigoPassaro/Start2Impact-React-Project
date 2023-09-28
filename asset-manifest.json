@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Start2Impact-React-Project/static/css/main.f4cb5989.css",
-    "main.js": "/Start2Impact-React-Project/static/js/main.93ebbf0d.js",
+    "main.js": "/Start2Impact-React-Project/static/js/main.75da1119.js",
     "static/js/787.6c138547.chunk.js": "/Start2Impact-React-Project/static/js/787.6c138547.chunk.js",
     "static/media/Bell.mp3": "/Start2Impact-React-Project/static/media/Bell.2ad5cb781a258dd3e184.mp3",
     "index.html": "/Start2Impact-React-Project/index.html",
     "main.f4cb5989.css.map": "/Start2Impact-React-Project/static/css/main.f4cb5989.css.map",
-    "main.93ebbf0d.js.map": "/Start2Impact-React-Project/static/js/main.93ebbf0d.js.map",
+    "main.75da1119.js.map": "/Start2Impact-React-Project/static/js/main.75da1119.js.map",
     "787.6c138547.chunk.js.map": "/Start2Impact-React-Project/static/js/787.6c138547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f4cb5989.css",
-    "static/js/main.93ebbf0d.js"
+    "static/js/main.75da1119.js"
   ]
 }
