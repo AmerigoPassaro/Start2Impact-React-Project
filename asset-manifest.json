@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/Start2Impact-React-Project/static/css/main.f4cb5989.css",
-    "main.js": "/Start2Impact-React-Project/static/js/main.f9ad0b33.js",
+    "main.css": "/Start2Impact-React-Project/static/css/main.1773de7b.css",
+    "main.js": "/Start2Impact-React-Project/static/js/main.45291863.js",
     "static/js/787.6c138547.chunk.js": "/Start2Impact-React-Project/static/js/787.6c138547.chunk.js",
-    "static/media/Bell.mp3": "/Start2Impact-React-Project/static/media/Bell.2ad5cb781a258dd3e184.mp3",
     "index.html": "/Start2Impact-React-Project/index.html",
-    "main.f4cb5989.css.map": "/Start2Impact-React-Project/static/css/main.f4cb5989.css.map",
-    "main.f9ad0b33.js.map": "/Start2Impact-React-Project/static/js/main.f9ad0b33.js.map",
+    "main.1773de7b.css.map": "/Start2Impact-React-Project/static/css/main.1773de7b.css.map",
+    "main.45291863.js.map": "/Start2Impact-React-Project/static/js/main.45291863.js.map",
     "787.6c138547.chunk.js.map": "/Start2Impact-React-Project/static/js/787.6c138547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4cb5989.css",
-    "static/js/main.f9ad0b33.js"
+    "static/css/main.1773de7b.css",
+    "static/js/main.45291863.js"
   ]
 }
