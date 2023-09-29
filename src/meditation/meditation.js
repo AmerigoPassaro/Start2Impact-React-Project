@@ -1,6 +1,6 @@
 import React from "react"
 import Header from "./Header"
-import FormWatch from "./timer"
+import FormWatch from "./Timer"
 import Footer from "./Footer"
 import "./assets/css/style.css"
 
