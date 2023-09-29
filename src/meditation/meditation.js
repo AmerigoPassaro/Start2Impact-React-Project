@@ -1,7 +1,7 @@
 import React from "react"
-import Header from "./header"
+import Header from "./Header"
 import FormWatch from "./timer"
-import Footer from "./footer"
+import Footer from "./Footer"
 import "./assets/css/style.css"
 
 class Meditation extends React.Component {
