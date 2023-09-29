@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Start2Impact-React-Project/static/css/main.1773de7b.css",
-    "main.js": "/Start2Impact-React-Project/static/js/main.45291863.js",
+    "main.js": "/Start2Impact-React-Project/static/js/main.98624e0b.js",
     "static/js/787.6c138547.chunk.js": "/Start2Impact-React-Project/static/js/787.6c138547.chunk.js",
     "index.html": "/Start2Impact-React-Project/index.html",
     "main.1773de7b.css.map": "/Start2Impact-React-Project/static/css/main.1773de7b.css.map",
-    "main.45291863.js.map": "/Start2Impact-React-Project/static/js/main.45291863.js.map",
+    "main.98624e0b.js.map": "/Start2Impact-React-Project/static/js/main.98624e0b.js.map",
     "787.6c138547.chunk.js.map": "/Start2Impact-React-Project/static/js/787.6c138547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1773de7b.css",
-    "static/js/main.45291863.js"
+    "static/js/main.98624e0b.js"
   ]
 }
