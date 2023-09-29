@@ -142,24 +142,24 @@ main{
 @media only screen and (max-width: 500px) {
 
   h1{
-    font-size: 45px;
+    font-size: 35px;
   }
 
   .container{
-    width: 400px;
+    width: 350px;
   }
 
   .timer-input{
-    width: 140px;
+    width: 110px;
   }
 
   .timer-label{
-    width: 180px;
+    width: 130px;
     display: inline-block;
   }
 
   #timer-container{
-    font-size: 150px;
+    font-size: 120px;
   }
 
 }

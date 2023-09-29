@@ -40,6 +40,7 @@ class FormWatch extends React.Component {
 
   // Dichiarazione dei metodi (Subtmit)
   handleSubmit(event) {
+    clearInterval(timer);
     // Cambio state del timer
     this.setState({
       active: !this.state.active,
@@ -76,6 +77,7 @@ class FormWatch extends React.Component {
       {String(this.state.minutes).padStart(2, '0')}
       :
       {String(this.state.seconds).padStart(2, '0')}
+
       </div>
         <form onSubmit={this.handleSubmit} Id="timer-form" >
           <div className="timer-box">
