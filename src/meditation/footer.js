@@ -5,7 +5,5 @@ export default function Footer(){
       <>
         Amerigo Passaro ©
       </>
-      
-
   )
 }

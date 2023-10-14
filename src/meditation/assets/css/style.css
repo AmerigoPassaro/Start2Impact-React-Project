@@ -93,7 +93,7 @@ main{
   width: 500px;
 }
 
-.description, #timer-container{
+#timer-container{
   display: inline;
 }
 
@@ -124,6 +124,7 @@ main{
 
 #timer-button{
   width: 100%;
+  margin: 10px 0px;
   background-color: #beb7cb;
   font-size: 20px;
   padding: 20px 0px;
