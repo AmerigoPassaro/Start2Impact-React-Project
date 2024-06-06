@@ -1,0 +1,59 @@
+#chart{
+    width: fit-content;
+    display: flex;
+
+    border-radius: 20px;
+    padding: 16px;
+
+    background-color: rgba(255,255,255, 0.5);
+}
+
+.container-graphic{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    align-items: baseline;
+    align-content: flex-end;
+    text-align: center;
+}
+
+#y-axis{
+    display: grid;
+    grid-template-rows: 1fr 20px;
+    margin-right: 20px;
+}
+
+#y-axis-values{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.date{
+    height: 20px;
+}
+
+/** Emission **/
+
+.container-rettangle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emission{
+    width: 30px;
+    background-image: linear-gradient(rgb(96, 128, 255), rgba(255, 255, 255, 0));
+    border-radius: 10px 10px 0px 0px;
+
+    cursor: pointer;
+
+    transition: opacity 0.5s;
+}
+
+.emission:hover{
+    opacity: 0.5;
+}
+
+.emission:active{
+    opacity: 1;
+}

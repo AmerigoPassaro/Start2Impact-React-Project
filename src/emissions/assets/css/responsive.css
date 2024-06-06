@@ -1,0 +1,76 @@
+@media only screen and (max-width: 500px) {
+
+    /* Header */
+    #container-title{
+        text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.33);;
+    }
+
+    h2{
+        font-size: 17px;
+    }
+    
+    #world{
+        font-size: 25px;
+    }
+    
+    #emissions{
+        font-size: 70px;
+    }
+
+    /* Menu */
+
+    nav{
+        top: auto;
+        bottom: 0px;
+        right: 175px;
+    
+        flex-direction: row;
+        padding: 25px;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .menu-item{
+        margin: 0px 10px;
+        border-radius: 20px;
+    }
+
+    /* Search */
+
+    #search-form, #dashboard{
+        width: 400px;
+
+        margin-bottom: 25px;
+        border-radius: 20px;
+        padding: 8px;
+    }
+
+    #place-select, .place-date, #search-button, .coordinates-input, #change-button{
+        width: 300px;
+    
+        margin-bottom: 20px;
+        border-radius: 10px;
+        padding: 8px;
+    
+        text-align: center;
+        font-size: 16px;
+    }
+
+    #chart{
+        padding: 10px;
+    }
+
+    .container-graphic{
+        column-gap: 10px;
+    }
+
+    .date{
+        font-size: 12px;
+    }
+
+    .emission{
+        width: 20px;
+
+        border-radius: 5px 5px 0px 0px;
+    }
+
+}
