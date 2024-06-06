@@ -1,0 +1,77 @@
+section{
+    padding-top: 50px;
+
+    background-image: linear-gradient(rgb(96, 128, 255), rgba(255, 255, 255, 0)), url("../img/bg2.jpg");
+    background-repeat: no-repeat;
+
+}
+
+#search-form, #dashboard{
+    width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 50px;
+    border-radius: 20px;
+    padding: 16px;
+
+    background-color: rgba(255,255,255, 0.5);
+}
+
+#place-select, .place-date, #search-button, .coordinates-input, #change-button, #show-chart{
+    width: 400px;
+
+    margin-bottom: 25px;
+    border-radius: 20px;
+    border: 0px;
+    padding: 16px;
+
+    text-align: center;
+    font-size: 16px;
+
+    background-color: rgba(255,255,255, 0.5);
+}
+
+.search-label{
+    margin-bottom: 10px;
+
+    text-transform: capitalize;
+}
+
+input[name="emissions"]{
+    margin-bottom: 20px;
+}
+
+#dashboard span{
+    margin-bottom: 20px;
+}
+
+#dashboard p{
+    text-align: center;
+}
+
+h3{
+    margin-bottom: 20px;
+    
+    font-size: 33px;
+}
+
+
+h4{
+    margin-bottom: 15px;
+
+    font-size: 23px;
+    text-transform: capitalize;
+}
+
+#container-lon-lat{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+}
+
+.coordinates-input{
+    width: 180px;
+}
