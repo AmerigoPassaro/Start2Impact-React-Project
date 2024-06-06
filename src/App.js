@@ -1,15 +1,11 @@
 import * as React from "react"
-import Emissions from "./emissions/Emissions"
+import Meditation from "./meditation/Meditation"
 
 
 export default function App(){
-
-
-  
-  document.body.style.overflow = "hidden"
   return(
     <>
-    <Emissions />
+    <Meditation />
     </>
   )
 }
