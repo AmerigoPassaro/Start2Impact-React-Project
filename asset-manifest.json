@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/Start2Impact-React-Project/static/css/main.e5509b78.css",
-    "main.js": "/Start2Impact-React-Project/static/js/main.d905a7c2.js",
-    "static/js/787.6c138547.chunk.js": "/Start2Impact-React-Project/static/js/787.6c138547.chunk.js",
-    "index.html": "/Start2Impact-React-Project/index.html",
-    "main.e5509b78.css.map": "/Start2Impact-React-Project/static/css/main.e5509b78.css.map",
-    "main.d905a7c2.js.map": "/Start2Impact-React-Project/static/js/main.d905a7c2.js.map",
-    "787.6c138547.chunk.js.map": "/Start2Impact-React-Project/static/js/787.6c138547.chunk.js.map"
+    "main.css": "/Start2Impact-Progetto-Finale-Front-End-React/static/css/main.fe9a5c6a.css",
+    "main.js": "/Start2Impact-Progetto-Finale-Front-End-React/static/js/main.9d6bca7f.js",
+    "static/js/787.6c138547.chunk.js": "/Start2Impact-Progetto-Finale-Front-End-React/static/js/787.6c138547.chunk.js",
+    "static/media/bg.jpg": "/Start2Impact-Progetto-Finale-Front-End-React/static/media/bg.fdfd45aa8a4bb8a1fb53.jpg",
+    "static/media/bg2.jpg": "/Start2Impact-Progetto-Finale-Front-End-React/static/media/bg2.eb2beca29b93eb09589e.jpg",
+    "index.html": "/Start2Impact-Progetto-Finale-Front-End-React/index.html",
+    "main.fe9a5c6a.css.map": "/Start2Impact-Progetto-Finale-Front-End-React/static/css/main.fe9a5c6a.css.map",
+    "main.9d6bca7f.js.map": "/Start2Impact-Progetto-Finale-Front-End-React/static/js/main.9d6bca7f.js.map",
+    "787.6c138547.chunk.js.map": "/Start2Impact-Progetto-Finale-Front-End-React/static/js/787.6c138547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5509b78.css",
-    "static/js/main.d905a7c2.js"
+    "static/css/main.fe9a5c6a.css",
+    "static/js/main.9d6bca7f.js"
   ]
 }
