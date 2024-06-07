@@ -1,57 +1,43 @@
-import React from "react"
+import React, {useState} from "react"
 import Header from "./Header"
 import FormWatch from "./Timer"
 import Footer from "./Footer"
 import "./assets/css/style.css"
 
-class Meditation extends React.Component {
+function Meditation() {
 
-  // Oggetto orologio
-  constructor(props){
-    super(props);
-    //State
-    this.state = {
-      light: true
-    }
-    // Metodi
-    this.handleMode =  this.handleMode.bind(this);
-  }
-
-  // Dichiarazione dei metodi (Cambio mode)
-  handleMode(event) {
-    this.setState({
-      light: !this.state.light,
-    })
+  // Hook orologio
+  const [mode, setMode] = useState(true);
+  // Funzione di switch
+  function switchMode() {
+    setMode(!mode)
   }
 
   // Visualizzazione
-  render() {
-    return(
-      <>
-      <header className={this.state.light ? "light-header" : "dark-header"}>
-      <Header />
+  return(
+    <>
+      <header className={mode ? "light-header" : "dark-header"}>
+        <Header />
       </header>
 
-      <nav className={this.state.light ? "light-nav" : "dark-nav"}>
-        <button onClick={this.handleMode} className="mode-button">
-        {this.state.light ? "light" : "dark"}
+      <nav className={mode ? "light-nav" : "dark-nav"}>
+        <button onClick={()=>{switchMode()}} className="mode-button">
+          {mode === true ? "light" : "dark"}
         </button>
       </nav>
 
-      <main className={this.state.light ? "light-main" : "dark-main"}>
+      <main className={mode ? "light-main" : "dark-main"}>
         <div className="container">
-          <p clasName="description">Click on <b>Start</b> button to start your meditation</p>
+          <p>Click on <b>Start</b> button to start your meditation</p>
           <FormWatch />
         </div>
       </main>
 
-      <footer className={this.state.light ? "light-footer" : "dark-footer"}>
+      <footer className={mode ? "light-footer" : "dark-footer"}>
         <Footer />
       </footer>
-
-      </>
-    )
-  }
+    </>
+  )
 }
 
 
